@@ -1,0 +1,43 @@
+body{
+    padding: 30px;
+    text-align: center;
+}
+
+.aux{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.conteudo{
+    text-align: center;
+}
+
+video, canvas{
+    border-radius: 50%;
+}
+
+.formulario{
+    width: 500px;
+}
+
+#mapid{
+    height: 300px;
+    width: 50%;
+}
+
+span{
+    color: rgba(0, 128, 0, 0.781);
+}
+
+@media print{
+    video{
+        display: none;
+    }
+    button{
+        display: none;
+    }
+    a{
+        display: none;
+    }
+}
